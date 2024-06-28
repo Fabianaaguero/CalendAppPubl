@@ -1,4 +1,4 @@
-import { Component, ViewChild, ElementRef } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-tutorial',
@@ -9,12 +9,5 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 })
 export class TutorialComponent {
 
-  @ViewChild('videoPlayer') videoPlayer!: ElementRef;
-
-  ngOnInit() {
-    if (this.videoPlayer.nativeElement) {
-      this.videoPlayer.nativeElement.muted = true;
-    }
-  }
 
 }
