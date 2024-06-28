@@ -1,0 +1,9 @@
+.contenedor {
+    padding-top: 50px;
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+}
+
+.contVideo {
+    text-align: center; /* Centrar el video dentro del contenedor */
+}
